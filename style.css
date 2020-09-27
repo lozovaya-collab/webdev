@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.Roboto {
+    font-family: 'Roboto';
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1600px;
+}
+
+.header {
+    position: absolute;
+    color: white;
+    height: 95px;
+    width: 1600px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    width: 44px;
+    height: 45px;
+    z-index: 2;
+    float: left;
+    margin-left: 357px;
+    margin-top: -46px;
+}
+
+.urls {
+    margin-left: 421px;
+    margin-top: 27px;
+}
+
+.urls a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 81px;
+    color: white;
+    z-index: 3;
+}
+
+.left {
+    height: 32px;
+    padding-top: 11px;
+}
+
+.right {
+    margin-left: 419px;
+    margin-top: -32px;
+}
+
+.right :last-child {
+    margin-left: 83px;
+}
+
+.about {
+    font-weight: bold;
+    border-bottom: 1.2px solid white;
+}
+
+.urls a:hover {
+    font-weight: bold;
+}
+
+.headline {
+    width: 735px;
+    height: 75px;
+    padding-top: 176px;
+    padding-left: 435px;
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+
+.first-page {
+    position: relative;
+    background: url(assets/bg-image.jpg) no-repeat;
+    width: 1600px;
+    height: 744px;
+    margin-top: 0px;
+    color: white;
+    z-index: 0;
+}
+
+.info {
+    width: 504px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 548px;
+    line-height: 25px;
+}
+
+.button-getStarted-FirstPage {
+    font-size: 14px;
+    width: 186px;
+    height: 46px;
+    margin-left: 707px;
+    margin-top: 29px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+}
+
+.button-getStarted-FirstPage:hover,
+.button-getStarted-Rappresent:hover, .button-learnMore-Implement:hover {
+    background-color: #009CC2;
+}
+
+.button-socialNets {
+    margin-left: 715px;
+    margin-top: 183px;
+}
+
+.button-socialNets button {
+    width: 21px;
+    height: 21px;
+    margin-right: 25px;
+}
+
+.mail {
+    background: url(assets/mail_fff.svg) no-repeat;
+    border: none;
+    transition: 1s;
+}
+
+.mail:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    background: url(assets/facebook_fff.svg) no-repeat;
+    border: none;
+    transition: 1s;
+}
+
+.facebook:hover {
+    transform: scale(1.2);
+}
+
+.instagram {
+    background: url(assets/insta_fff.svg) no-repeat;
+    border: none;
+    transition: 1s;
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.youtube {
+    background: url(assets/telegram_fff.svg) no-repeat;
+    border: none;
+    transition: 1s;
+}
+
+.youtube:hover {
+    transform: scale(1.2);
+}
+
+.Rappresent {
+    width: 1600px;
+    height: 842px;
+    background-color: white;
+    margin-left: -8px;
+}
+
+.Rappresent img {
+    margin-top: 120px;
+    margin-left: 931px;
+}
+
+.content-block {
+    width: 407px;
+    height: 233px;
+    color: #4E4E4E;
+    margin-top: -432px;
+    margin-left: 277px;
+}
+
+.content-Rappresent {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.Rappresent h2 {
+    letter-spacing: 1px;
+    width: 390px;
+}
+
+.button-getStarted-Rappresent {
+    font-size: 14px;
+    width: 186px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+.OurCommunity {
+    background-color: #F5F6F7;
+    width: 1600px;
+    height: 504px;
+}
+
+.carousel-slider {
+    overflow: hidden;
+    display: flex;
+    margin-left: 676px;
+    padding-top: 20px;
+}
+
+.carousel-slider img {
+    margin-left: 30px;
+}
+
+.swipe-slides {
+    display: flex;
+    padding-top: 84px;
+    margin-left: 1234px;
+}
+
+.left-arrow {
+    background: url(assets/arrow-left.svg) no-repeat;
+    border: none;
+    margin-left: 14px;
+}
+
+.left-arrow:hover {
+    opacity: 0.5;
+}
+
+.divide {
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.right-arrow {
+    background: url(assets/arrow-right.svg) no-repeat;
+    border: none;
+    margin-left: 15px;
+}
+
+.right-arrow:hover {
+    opacity: 0.5;
+}
+
+.pagination {
+    font-size: 17px;
+    margin-left: 12px;
+    margin-top: -3px;
+    font-weight: normal;
+}
+
+.info-OurCommunity {
+    text-align: center;
+    width: 298px;
+    height: 175px;
+    margin-top: -210px;
+    margin-left: 269px;
+}
+
+.headline-OurCommunity {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+
+.info-text-OurCommunity {
+    font-weight: normal;
+    color: black;
+    font-size: 14px;
+    margin-top: -9px;
+    line-height: 20px;
+}
+
+.Implement {
+    background-color: white;
+    width: 1600px;
+    height: 842px;
+}
+
+.button-learnMore-Implement {
+    font-size: 14px;
+    width: 180px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+.Implement img {
+    margin-top: 121px;
+    margin-left: 269px;
+}
+
+.Implement-content-block {
+    width: 407px;
+    height: 233px;
+    color: #4E4E4E;
+    margin-top: -408px;
+    margin-left: 815px;
+}
+
+.Implement h2 {
+    letter-spacing: 1px;
+    width: 390px;
+}
+
+.SignUp {
+    background: url(assets/pexels-christina-morillo-1181675\ 1.jpg) no-repeat;
+    width: 1600px;
+    height: 524px;
+}
+
+.input-Email {
+    float: left;
+    position: relative;
+    width: 336px;
+    height: 46px;
+    color: #9B9B9B;
+    font-weight: normal;
+    border: none;
+    margin-top: 0px;
+}
+
+.input-Email:invalid~.btn-input {
+    background-image: url(assets/check-icon-opacity.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-input {
+    float: left;
+    position: relative;
+    background-color: #00AFDB;
+    background-image: url(assets/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 66px;
+    height: 48px;
+    border: none;
+}
+
+.btn-input:hover {
+    background-color: #009CC2;
+}
+
+.form-registration {
+    height: 46px;
+    padding-top: 167px;
+    margin-left: 598px;
+    line-height: 48px;
+}
+
+.form-registration h2 {
+    letter-spacing: 1px;
+    width: 390px;
+    padding-top: 3px;
+    padding-left: 12px;
+    color: white;
+}
+
+.Download {
+    background-color: #F5F6F7;
+    width: 1600px;
+    height: 464px;
+    margin-top: -20px;
+}
+
+.btn-apple {
+    float: left;
+    font-size: 14px;
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+}
+
+.icon-apple {
+    float: left;
+    background-color: #009CC2;
+    background-image: url(assets/icon-apple.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 59px;
+    height: 46px;
+    border: none;
+}
+
+.btn-playMarket {
+    float: left;
+    font-size: 14px;
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+    margin-left: 29px;
+}
+
+.icon-playMarket {
+    float: left;
+    background-color: #009CC2;
+    background-image: url(assets/icon-android.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 59px;
+    height: 46px;
+    border: none;
+}
+
+.btn-apple:hover,
+.btn-playMarket:hover {
+    background-color: #009CC2;
+}
+
+.Download h2 {
+    letter-spacing: 1px;
+    width: 390px;
+    padding-top: 119px;
+    margin-left: 675px;
+}
+
+.Download-text {
+    font-size: 14px;
+    width: 480px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 560px;
+}
+
+.content-text {
+    text-align: center;
+}
+
+.buttons-store {
+    padding-top: 15px;
+    margin-left: 599px;
+}
+
+.footer {
+    background-color: black;
+    width: 1600px;
+    height: 185px;
+}
+
+.footer-nav {
+    position: absolute;
+    padding-top: 73px;
+    margin-left: 144px;
+    z-index: 1;
+    width: 400px;
+}
+
+.footer-nav span {
+    margin-left: 16px;
+    position: relative;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    font-weight: bold;
+}
+
+.footer-logo {
+    position: relative;
+    margin-top: 59px;
+    margin-left: 778px;
+}
+
+.footer-signature {
+    float: right;
+    position: relative;
+    color: #818181;
+    font-size: 14px;
+    padding-top: 74px;
+    padding-right: 160px;
+    z-index: 2;
+}
